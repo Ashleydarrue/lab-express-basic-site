@@ -1,6 +1,5 @@
 body {
   margin: 0 auto;
-  background-color: bisque;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -22,11 +21,13 @@ nav a{
  margin-right: 5px;
  font: 20px;
 }
-nav a:hover{
+
+nav a:hover {
   text-decoration: none;
   color: black;
   font-size: 25px;
- }
+}
+
 
 header{
   background-image: url("/images/coffee.jpg");
@@ -46,6 +47,12 @@ header{
 
 header  h1 {
   margin-left: 150px;
+  color: white;
+  padding: 15px 15px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 

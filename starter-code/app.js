@@ -17,4 +17,8 @@ app.get('/aboutbeans', (request, response, next) => {
   response.sendFile(__dirname + '/views/aboutbeans.html');
 });
 
+app.get('/roast', (request, response, next) => {
+  response.sendFile(__dirname + '/views/roast.html');
+});
+
 app.use(express.static('public'));

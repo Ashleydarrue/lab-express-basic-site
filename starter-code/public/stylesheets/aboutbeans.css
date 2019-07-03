@@ -3,7 +3,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 nav{
-  widows: 100%;
+  width: 100%;
   height: 50px;
  background-color: #A2775A;
  display: flex;
@@ -11,8 +11,6 @@ nav{
  align-items: center;
  align-content: center;
 }
-
-
 
 nav a{
  text-decoration: none;
@@ -68,4 +66,14 @@ header > button:hover{
   border: 1px dotted #2B0E0F;
   transition: .4s;
   font-size: 22px;
+}
+
+header > button >a {
+  text-decoration: none;
+  color: black;
+}
+
+header > button >a:visted {
+  text-decoration: none;
+  color: black;
 }
